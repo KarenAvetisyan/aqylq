@@ -24,6 +24,10 @@ document.addEventListener('DOMContentLoaded', function(){
         el.addEventListener('scroll', listener)
         }
         
+        // FULL HEIGHT FOR BANNER 
+        if (document.querySelector('nav') && window.innerWidth <= 992) {
+                document.querySelector('nav').style.height = window.innerHeight + 'px';
+        }
         // хедер при при скролле 
         let selectHeader = select('.header')
         if (selectHeader) {

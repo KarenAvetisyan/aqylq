@@ -310,7 +310,7 @@ h3 {
     margin: 6px 29px 6px 0px;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .header .container {
     max-width: 100%;
   }
@@ -468,7 +468,7 @@ h3 {
     padding-top: 300px;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .sc-banner {
     padding-top: 106px;
   }
@@ -611,7 +611,7 @@ h3 {
     max-width: 659px;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .sc-about .img__box .screen {
     max-width: 552px;
   }
@@ -739,7 +739,7 @@ h3 {
     height: 199px;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .sc-features .feature__item {
     margin-bottom: 30px;
   }
@@ -853,7 +853,7 @@ h3 {
     right: 32px;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .sc-how .how__step {
     width: 320px;
     height: 234px;
@@ -983,7 +983,7 @@ h3 {
     margin-top: 20px;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .sc-start .start__wrap {
     min-height: auto;
   }
@@ -1073,7 +1073,7 @@ h3 {
     line-height: 25px;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .footer h4 {
     margin-top: 31px;
     font-size: 20px;
