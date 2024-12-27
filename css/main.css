@@ -418,9 +418,6 @@ h3 {
 }
 
 @media (max-width: 1450px) {
-  .sc-banner .donut__img {
-    max-width: 550px;
-  }
   .sc-banner .bubble__img {
     max-width: 436px;
   }
