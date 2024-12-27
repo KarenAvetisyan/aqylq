@@ -31,9 +31,14 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
-@media screen and (max-width: 1700px) and (min-width: 1200px) {
+@media screen and (max-width: 1700px) and (min-width: 1340px) {
   body {
     zoom: 0.8;
+  }
+}
+@media screen and (max-width: 1340px) and (min-width: 1200px) {
+  body {
+    zoom: 0.7;
   }
 }
 
@@ -487,6 +492,12 @@ h3 {
     border-radius: 15px;
   }
 }
+@media screen and (max-width: 1340px) and (min-width: 1200px) {
+  .sc-banner .banner__info-wrap p{
+    max-width: 731px;
+  }
+}
+
 /* animations on scroll  */
 [data-inviewport=obs__full-width] {
   position: relative;
