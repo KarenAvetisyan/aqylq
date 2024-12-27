@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>AQYL</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Put your description here.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" as="style" onload="this.rel='stylesheet'">  
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" as="style" onload="this.rel='stylesheet'" />
+    <link rel="preload" href="css/grid.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="stylesheet" href="css/main.css">
+    <link fetchpriority="high" rel="preload" href="img/donut.webp" as="image">
+    <link fetchpriority="high" rel="preload" href="img/donut-mob.webp" as="image">
+    <link fetchpriority="high" rel="preload" href="img/bubble.webp" as="image">
+    <link fetchpriority="high" rel="preload" href="img/bubble-mob.webp" as="image">
+</head>
+<body>
+
+    <div id="wrapper">
+        <!-- header  -->
+        <header class="header">
+            <div class="container">
+                <div class="header__wrap">
+                    <div class="logo"><img src="logo.svg" alt="logo"></div>
+                    <div class="burger js-burger d-mx-lg">
+                        <span></span>
+                    </div>
+                    <nav>
+                        <ul class="nav-menu">
+                          <li><a class="nav__link scrollTo" href="#banner">Главная</a></li>
+                          <li><a class="nav__link scrollTo" href="#about">О приложении</a></li>
+                          <li><a class="nav__link scrollTo" href="#features">Особенности</a></li>
+                          <li><a class="nav__link scrollTo" href="#featuresSlider">Преимущества</a></li>
+                          <li><a class="nav__link scrollTo" href="#howWorks">Как это работает</a></li>
+                          <li><a class="nav__link" href="#">Контакты</a></li>
+                        </ul>
+                        <a href="#" class="primary-btn">Скачать приложение</a>
+                    </nav>
+                </div>
+            </div>
+        </header> 
+        <!-- banner  -->
+        <section class="sc-banner" id="banner">
+            <div class="donut__img">
+                <img class="d-mn-lg" src="img/donut.webp" alt="img">
+                <img class="d-mx-lg" src="img/donut-mob.webp" alt="img">
+            </div>
+            <div class="bubble__img">
+                <img class="d-mn-lg" src="img/bubble.webp" alt="img">
+                <img class="d-mx-lg" src="img/bubble-mob.webp" alt="img">
+            </div>
+            <div class="container">
+                <div class="banner__wrap">
+                    <div class="banner__content">
+                        <div class="chim__icons">
+                            <i><img src="img/svg/capsule.svg" alt="icon"></i>
+                            <i><img src="img/svg/gen.svg" alt="icon"></i>
+                            <i><img src="img/svg/bakteria.svg" alt="icon"></i>
+                            <i><img src="img/svg/chim.svg" alt="icon"></i>
+                        </div>
+                        <h1>Революция в обучении с иммерсивными 3D-технологиями</h1>
+                        <div class="banner__info-wrap">
+                            <p class="b1">Уникальное мобильное приложение для образовательных учреждений, которое перевернёт ваш подход к обучению</p>
+                            <a href="#" class="secondary-btn">Начать обучение</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Что такое наше приложение?  -->
+        <section class="sc-about" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6" data-inviewport="obs__slide-up">
+                        <h2>Что такое наше приложение?</h2>
+                    </div>
+                    <div class="col-lg-6" data-inviewport="obs__slide-up">
+                        <p class="b2">Это мобильная платформа, которая позволяет учащимся и преподавателям погружаться в мир 3D-обучения, делая образовательный процесс не только более эффективным, но и увлекательным.</p>
+                    </div>
+                    <div class="col-12">
+                        <div class="img__box" data-inviewport="obs__slide-up">
+                            <div class="small__img img-1"><img loading="lazy" width="256" height="256" src="img/books.webp" alt="books"></div>
+                            <div class="small__img img-2"><img loading="lazy" width="260" height="271" src="img/library.webp" alt="library"></div>
+                            <img class="screen" width="1385" height="1056" loading="lazy" src="img/screen.webp" alt="screen">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Особенности, которые изменят ваш подход к обучению  -->
+        <section class="sc-features" id="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12" data-inviewport="obs__slide-up">
+                        <h2>Особенности, которые изменят ваш<br> подход к обучению</h2>
+                    </div>
+                    <div class="col-12">
+                        <div class="feature__item-wrap">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="feature__item" data-inviewport="obs__slide-up">
+                                        <div class="img__box"><img data-inviewport="obs__slide-up" loading="lazy" src="img/immersive.webp" alt="img"></div>
+                                        <h3>Иммерсивные 3D-курсы</h3>
+                                        <p class="b2">Обучение с использованием трехмерных моделей и виртуальных объектов помогает студентам усваивать материал быстрее и легче</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="feature__item" data-inviewport="obs__slide-up">
+                                        <div class="img__box"><img data-inviewport="obs__slide-up" loading="lazy" src="img/interactive.webp" alt="img"></div>
+                                        <h3>Интерактивные задания</h3>
+                                        <p class="b2">Задачи с элементами дополненной реальности и взаимодействием с 3D-объектами для глубокого понимания предмета</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="feature__item" data-inviewport="obs__slide-up">
+                                        <div class="img__box"><img data-inviewport="obs__slide-up" loading="lazy" src="img/flexibility.webp" alt="img"></div>
+                                        <h3>Гибкость обучения</h3>
+                                        <p class="b2">Учебный процесс доступен в любое время, в любом месте — обучение без ограничений</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 d-mn-md"></div>
+                                <div class="col-lg-4">
+                                    <div class="feature__item" data-inviewport="obs__slide-up">
+                                        <div class="img__box"><img data-inviewport="obs__slide-up" class="top-out" loading="lazy" src="img/contact.webp" alt="img"></div>
+                                        <h3>Мгновенная обратная связь</h3>
+                                        <p class="b2">Система оценки и рекомендаций помогает ученикам отслеживать прогресс и развивать навыки</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="feature__item" data-inviewport="obs__slide-up">
+                                        <div class="img__box"><img data-inviewport="obs__slide-up" class="wide" loading="lazy" src="img/support.webp" alt="img"></div>
+                                        <h3>Поддержка преподавателей</h3>
+                                        <p class="b2">Создание уникальных курсов с 3D-контентом, оценка и анализ результатов студентов</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 d-mn-md"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12" id="featuresSlider">
+                        <div class="swiper swiperFeatures">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><a data-inviewport="obs__full-width" data-fancybox="feature-gallery" href="img/frog.webp"><img loading="lazy" width="600" height="339" src="img/frog.webp" alt="img"></a></div>
+                                <div class="swiper-slide"><a data-inviewport="obs__full-width" data-fancybox="feature-gallery" href="img/animation.webp"><img loading="lazy" width="600" height="339" src="img/animation.webp" alt="img"></a></div>
+                                <div class="swiper-slide"><a data-inviewport="obs__full-width" data-fancybox="feature-gallery" href="img/chemical.webp"><img loading="lazy" width="600" height="339" src="img/chemical.webp" alt="img"></a></div>
+                                <div class="swiper-slide"><a data-inviewport="obs__full-width" data-fancybox="feature-gallery" href="img/frog.webp"><img loading="lazy" width="600" height="339" src="img/frog.webp" alt="img"></a></div>
+                                <div class="swiper-slide"><a data-inviewport="obs__full-width" data-fancybox="feature-gallery" href="img/animation.webp"><img loading="lazy" width="600" height="339" src="img/animation.webp" alt="img"></a></div>
+                                <div class="swiper-slide"><a data-inviewport="obs__full-width" data-fancybox="feature-gallery" href="img/chemical.webp"><img loading="lazy" width="600" height="339" src="img/chemical.webp" alt="img"></a></div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Как работает наше приложение?  -->
+        <section class="sc-how" id="howWorks">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12" data-inviewport="obs__slide-up">
+                        <h2>Как работает наше приложение?</h2>
+                    </div>
+                    <div class="col-12">
+                        <div class="how__box">
+                            <div class="how__step" data-inviewport="obs__full-width">
+                                <div class="how__img" data-inviewport="obs__slide-up"><img loading="lazy" src="img/hand-phone.webp" alt="img"></div>
+                                <div class="step__text" data-inviewport="obs__slide-up">1</div>
+                            </div>
+                            <div class="how__info" data-inviewport="obs__slide-down">
+                                <h3>Скачайте приложение на мобильное устройство</h3>
+                                <p class="b1">Простая регистрация и доступ к приложениям для студентов и преподавателей.</p>
+                                <img loading="lazy" src="img/svg/line-1.svg" alt="line" class="line line-1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4"></div>
+                    <div class="col-xl-8">
+                        <div class="how__box">
+                            <img loading="lazy" src="img/svg/line-2.svg" alt="line" class="line line-2">
+                            <div class="how__step" data-inviewport="obs__full-width">
+                                <div class="how__img" data-inviewport="obs__slide-up"><img loading="lazy" src="img/chart.webp" alt="img"></div>
+                                <div class="step__text" data-inviewport="obs__slide-up">2</div>
+                            </div>
+                            <div class="how__info" data-inviewport="obs__slide-down">
+                                <h3>Выберите курс или создайте свой собственный</h3>
+                                <p class="b1">Встроенный конструктор курсов позволяет преподавателям создавать уникальные 3D-курсы</p>
+                            </div>
+                        </div>
+                        <div class="how__box">
+                            <div class="how__step" data-inviewport="obs__full-width">
+                                <div class="how__img" data-inviewport="obs__slide-up"><img loading="lazy" src="img/cube.webp" alt="img"></div>
+                                <div class="step__text" data-inviewport="obs__slide-up">2</div>
+                            </div>
+                            <div class="how__info" data-inviewport="obs__slide-down">
+                                <h3>Пройдите интерактивное занятие с использованием 3D-моделей и виртуальных объектов</h3>
+                                <p class="b1">Студенты взаимодействуют с материалами, решают задачи и получают практические навыки</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="how__box">
+                            <div class="how__step" data-inviewport="obs__full-width">
+                                <div class="how__img" data-inviewport="obs__slide-up"><img loading="lazy" src="img/refresh.webp" alt="img"></div>
+                                <div class="step__text" data-inviewport="obs__slide-up">4</div>
+                            </div>
+                            <div class="how__info" data-inviewport="obs__slide-down">
+                                <h3>Получите результаты и рекомендации для улучшения</h3>
+                                <p class="b1">Мгновенная обратная связь и возможность адаптации учебного процесса</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Начни обучаться с нами прямо сейчас!  -->
+        <section class="sc-start">
+            <div class="container">
+                <div class="start__wrap">
+                    <div class="info__box">
+                        <div class="info__text" data-inviewport="obs__slide-up">
+                            <h2>Начни обучаться с нами прямо сейчас!</h2>
+                            <p class="b1">Не упустите возможность модернизировать обучение в вашем учебном заведении с помощью передовых 3D-технологий</p>
+                        </div>
+                        <div class="info__btns d-mn-lg">
+                            <a href="#">Скачать для Windows <i class="icon"><img loading="lazy" src="img/svg/windows.svg" alt="icon"></i></a>
+                            <a href="#">Скачать для Android <i class="icon"><img loading="lazy" src="img/svg/android.svg" alt="icon"></i></a>
+                        </div>
+                    </div>
+                    <div class="img__box" data-inviewport="obs__slide-up">
+                        <img class="bg" loading="lazy" src="img/bakteria-bg.webp" alt="bg">
+                        <div class="img__wrap" data-inviewport="obs__slide-up"><img loading="lazy" src="img/hand-hold.webp" alt="img"></div>
+                    </div>
+                    <div class="info__btns d-mx-lg" data-inviewport="obs__slide-up">
+                        <a href="#">Скачать для Windows <i class="icon"><img loading="lazy" src="img/svg/windows.svg" alt="icon"></i></a>
+                        <a href="#">Скачать для Android <i class="icon"><img loading="lazy" src="img/svg/android.svg" alt="icon"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer  -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer__wrap">
+                            <div class="row">
+                                <div class="col-lg-3"><div class="logo"><img loading="lazy" src="logo.svg" alt="logo"></div></div>
+                                <div class="col-lg-5">
+                                    <h4>Контактная информация</h4>
+                                    <ul>
+                                        <li><a href="#">Адрес электронной почты</a></li>
+                                        <li><a href="#">Телефон</a></li>
+                                        <li><a href="#">Ссылки на соцсети</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-4">
+                                    <h4>Ссылки на страницы</h4>
+                                    <ul>
+                                       <li><a href="#">О нас</a></li>
+                                       <li><a href="#">Политика конфиденциальности</a></li>
+                                       <li><a href="#">Условия использования</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js" async></script> 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        window.addEventListener('load', () => {
+            Fancybox.bind('[data-fancybox]', {
+            });
+        })
+    </script>
+</body>
+</html>
+
